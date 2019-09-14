@@ -3,5 +3,7 @@
 var webExt = require('../dist/web-ext').default;
 var path = require('path');
 var absolutePackageDir = path.join(path.resolve(__dirname), '..');
+var path = img('img');
+
 
 webExt.main(absolutePackageDir);
